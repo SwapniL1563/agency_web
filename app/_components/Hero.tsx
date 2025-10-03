@@ -19,7 +19,7 @@ const Hero = ({value}:any) => {
               <TextGenerateEffect words="Functional Web Solutions"  className="text-4xl md:text-8xl lg:text-[10rem]  text-center primary z-10" />
             </div>
             {/* <h1 className='text-4xl md:text-6xl lg:text-[3.85rem] font-semibold w-3/4 md:w-1/2 text-center leading-snug md:leading-snug'>Building Creative & Functional <span className='primary'>Web Solution</span></h1> */}
-            <p className='secondary md:text-lg w-[90%] text-center md:w-[40%] z-10'>We are a web agency crafting creative, seamless, and high-impact digital experiences that elevate brands and drive engagement.</p>
+            <p className='secondary text-sm md:text-lg w-[80%] text-center md:w-[40%] z-10'>We are a web agency crafting creative, seamless, and high-impact digital experiences that elevate brands and drive engagement.</p>
 
             {/* Hero-button */}
             <div className='flex  md:flex-row  items-center gap-1 md:gap-2 mt-5 md:mt-4 z-10'>

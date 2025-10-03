@@ -45,10 +45,10 @@ export default function Contact() {
           className="w-full md:w-1/2 text-white flex flex-col gap-2"
           onSubmit={handleSubmit}
         >
-          <h1 className="text-2xl font-semibold mb-2">
+          <h1 className="text-xl md:text-2xl font-semibold mb-2">
             Ready to Build Something Amazing?
           </h1>
-          <p className="text-gray-300 mb-4">
+          <p className="text-gray-400 mb-4 text-sm md:text-base">
             Whether you have a project in mind, a question, or just want to say
             hi, we'd love to hear from you.
           </p>
@@ -88,12 +88,12 @@ export default function Contact() {
 
         {/* Additional Contact Info */}
         <div className="w-full md:w-1/2 flex flex-col gap-4 text-gray-300">
-          <h1 className="text-2xl font-semibold">Additional Contact Info</h1>
-          <div>
+          <h1 className="text-xl md:text-2xl font-semibold">Additional Contact Info</h1>
+          <div className="text-sm md:text-base">
             <h2 className="font-medium">Phone:</h2>
             <p>+91 9372611471 / +91 9321145169</p>
           </div>
-          <div>
+          <div className="text-sm md:text-base">
             <h2 className="font-medium">Location:</h2>
             <p>Navi Mumbai, India</p>
           </div>

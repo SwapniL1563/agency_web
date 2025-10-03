@@ -18,8 +18,8 @@ const About = () => {
             <img className='w-full md:w-[35%] no-color hover:grayscale-0 transition-all ease-in-out' src="/about-us.png" alt="" />
             {/* Info-sec */}/
             <div className='flex flex-col justify-start md:justify-center items-start gap-2 md:ml-14'>
-                <h1 className='text-xl md:text-xl font-semibold primary mb-1 md:mb-4'>We Build Creative & Functional Digital Experiences</h1>
-                <p className='text-xs leading-4 md:leading-6 md:text-[1rem] md:w-10/12 secondary mb-3 md:mb-6'>We are a full-service web agency based in Navi Mumbai, delivering innovative, user-centric web solutions for businesses and individuals. With expertise in modern technologies like Next.js, React, Node.js, and MongoDB, we craft websites and web applications that are not only visually stunning but also highly functional and optimized for performance.
+                <h1 className='text-lg md:text-xl font-semibold primary mb-1 md:mb-4'>We Build Creative & Functional Digital Experiences</h1>
+                <p className='text-sm leading-4 md:leading-6 md:text-[1rem] md:w-10/12 secondary mb-3 md:mb-6'>We are a full-service web agency based in Navi Mumbai, delivering innovative, user-centric web solutions for businesses and individuals. With expertise in modern technologies like Next.js, React, Node.js, and MongoDB, we craft websites and web applications that are not only visually stunning but also highly functional and optimized for performance.
 <br /> <br />
 Our approach combines creativity, technical excellence, and a focus on results, ensuring every project we deliver helps our clients achieve their goals and stand out online.</p>
                 {/* Social-links */}

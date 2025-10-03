@@ -10,7 +10,7 @@ const Projects = () => {
          
          {/* Project's-Title */}
         <div className="flex justify-between items-center mb-3">
-        <h1 className='text-xl md:text-3xl font-semibold text-white'>
+        <h1 className='text-lg md:text-3xl font-semibold text-white'>
            Our Recent Work</h1>
         <Link target='/' href='https://github.com/SwapniL1563'> <Button value='All projects >'></Button>
         </Link>
