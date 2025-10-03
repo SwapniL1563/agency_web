@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-poppins);
+  background-color: #070707;
+
+}
+
+/* text-color and bg-color */
+
+.primary{
+  color: #3B82F6;
+}
+
+.primary-bg{
+  background-color: #3B82F6;
+}
+
+.secondary{
+  color:#9E9E9E;
+}
+
+.glass{
+  background: rgba(125, 125, 125, 0.2);
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 10px;
+}
+
+.glass1{
+  background: rgba(102, 102, 102, 0.2);
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 10px;
+}
+
+.no-color{
+  filter: grayscale(100);
+}
+
+.color{
+  filter: grayscale(0);
+}
+
+h1::selection{
+  background-color: rgb(39, 39, 39);
+}
+
+span::selection{
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+
+.cell {
+  animation-name: cell-ripple;
+  animation-duration: var(--duration, 200ms);
+  animation-delay: var(--delay, 0ms);
+  animation-timing-function: ease-out;
+  animation-fill-mode: none;
+}
+
+@keyframes cell-ripple {
+  0% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+
+
