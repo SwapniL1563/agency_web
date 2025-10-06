@@ -90,6 +90,10 @@ export default function Contact() {
         <div className="w-full md:w-1/2 flex flex-col gap-4 text-gray-300">
           <h1 className="text-xl md:text-2xl font-semibold">Additional Contact Info</h1>
           <div className="text-sm md:text-base">
+            <h2 className="font-medium">Email:</h2>
+            <p>twofolddcreative@gmail.com</p>
+          </div>
+          <div className="text-sm md:text-base">
             <h2 className="font-medium">Phone:</h2>
             <p>+91 9372611471 / +91 9321145169</p>
           </div>
