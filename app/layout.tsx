@@ -11,8 +11,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Swapnil Portfolio",
-  description: "This is swapnil's portfolio",
+  title: "TwoFoldd Creative",
+  description: "TwoFoldd Craetive - a web development agency based in Navi Mumbai.",
 };
 
 
