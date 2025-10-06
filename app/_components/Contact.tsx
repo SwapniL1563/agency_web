@@ -20,7 +20,7 @@ export default function Contact() {
         Accept: "application/json",
       },
       body: JSON.stringify({
-        access_key: "08a51ff1-5711-4684-a77a-b8fa65219ea9",
+        access_key: "ef565c1b-cd3d-48b9-8734-1f73416fff07",
         name: formData.get("name"),
         email: formData.get("email"),
         message: formData.get("message"),
