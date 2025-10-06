@@ -26,9 +26,18 @@ const Services = () => {
           {/* UI/UX Development */}
           <div className='flex flex-col items-center glass py-10 md:py-14 px-2 md:px-5 text-center hover:bg-[#d5d5d533] cursor-pointer rounded-lg'>
             <FaPaintBrush className='text-5xl mb-4 primary' />
-            <h2 className='text-xl md:text-2xl  font-semibold mb-2'>UI/UX Development</h2>
+            <h2 className='text-xl md:text-2xl  font-semibold mb-2'>Creative UI/UX Development</h2>
             <p className='text-xs md:text-sm w-[90%] md:w-5/6 text-gray-300 mt-2'>
               Designing intuitive interfaces and seamless experiences that engage and delight users.
+            </p>
+          </div>
+
+          {/* Website Redesign & Development */}
+          <div className='flex flex-col items-center glass py-10 md:py-14 px-2 md:px-5 text-center hover:bg-[#d5d5d533] cursor-pointer rounded-lg'>
+            <FaPaintBrush className='text-5xl mb-4 primary' />
+            <h2 className='text-xl md:text-2xl  font-semibold mb-2'>Website Redesign & Development</h2>
+            <p className='text-xs md:text-sm w-[90%] md:w-5/6 text-gray-300 mt-2'>
+              Transforming outdated websites into modern, high-performing experiences.
             </p>
           </div>
 

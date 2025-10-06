@@ -19,9 +19,11 @@ const About = () => {
             {/* Info-sec */}/
             <div className='flex flex-col justify-start md:justify-center items-start gap-2 md:ml-14'>
                 <h1 className='text-lg md:text-xl font-semibold primary mb-1 md:mb-4'>We Build Creative & Functional Digital Experiences</h1>
-                <p className='text-sm leading-4 md:leading-6 md:text-[1rem] md:w-10/12 secondary mb-3 md:mb-6'>We are a full-service web agency based in Navi Mumbai, delivering innovative, user-centric web solutions for businesses and individuals. With expertise in modern technologies like Next.js, React, Node.js, and MongoDB, we craft websites and web applications that are not only visually stunning but also highly functional and optimized for performance.
-<br /> <br />
-Our approach combines creativity, technical excellence, and a focus on results, ensuring every project we deliver helps our clients achieve their goals and stand out online.</p>
+                <p className='text-sm leading-4 md:leading-6 md:text-[1rem] md:w-10/12 secondary mb-3 md:mb-6'>We’re Siddhant Waingade and Swapnil Chorat, founders of TwoFoldd, a full-service web design and development agency based in Navi Mumbai.
+
+We help businesses build clean, modern, and high-performing websites using technologies like Next.js, React, Node.js, and MongoDB — creating solutions that are visually stunning, fast, and secure. <br /><br />
+
+At TwoFoldd, we blend creativity with technical precision, focusing on intuitive UI/UX, responsive design, and measurable performance to ensure every website not only looks great but drives real growth.</p>
                 {/* Social-links */}
                 <div className='flex gap-2 md:mb-4'>
                     <Link className='text-[0.7rem] md:text-sm' href="https://github.com/SwapniL1563" target='/'>
