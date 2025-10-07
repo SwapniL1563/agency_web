@@ -15,8 +15,8 @@ export const metadata: Metadata = {
   description: "TwoFoldd Creative - a web development agency based in Navi Mumbai.",
   icons: {
     icon: "/favicon-32x32.png",            
-    shortcut: "/favicon.ico",       
-    apple: "/apple-touch-icon.png",  
+    shortcut: "/favicon-32x32.png",       
+    apple: "/favicon-32x32.png",  
   },
 };
 
