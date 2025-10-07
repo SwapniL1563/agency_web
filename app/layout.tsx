@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import {Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
-import { Toaster } from "@/components/ui/toaster"
+import { Toaster } from "@/components/ui/toaster";
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -12,9 +12,13 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "TwoFoldd Creative",
-  description: "TwoFoldd Craetive - a web development agency based in Navi Mumbai.",
+  description: "TwoFoldd Creative - a web development agency based in Navi Mumbai.",
+  icons: {
+    icon: "/favicon-32x32.png",            
+    shortcut: "/favicon.ico",       
+    apple: "/apple-touch-icon.png",  
+  },
 };
-
 
 export default function RootLayout({
   children,
@@ -23,9 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${poppins.variable}  antialiased `}
-      > 
+      <body className={`${poppins.variable} antialiased`}>
         {children}
         <Toaster />
       </body>
